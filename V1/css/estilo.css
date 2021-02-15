@@ -1,0 +1,200 @@
+/* Patrones del CCS */
+
+h6 { font-family: 'Permanent Marker', cursive; }
+h1, h2, h3, h4, h5 { font-family: 'Barlow', sans-serif; }
+p, a, button, form, input, select, option, textarea, em, span, strong, div { font-family: 'Roboto', sans-serif; }
+
+body { margin: 0 !important; }
+
+header, main, footer, aside, section, article, figure, nav, div { display: block; }
+
+
+/* Maquetacion, estilo y acabado CSS */
+
+/* Whatsapp button  */
+aside#whatsapp {  }
+aside#whatsapp a {  }
+aside#whatsapp a i {  }
+aside#whatsapp a:hover {  }
+aside#whatsapp a:hover i {  }
+
+/* ScrollTop Button */
+aside#scroll-top {  }
+aside#scroll-top a {  }
+aside#scroll-top a i {  }
+aside#scroll-top a:hover {  }
+aside#scroll-top a:hover i {  }
+
+/* Header */
+header { width: 100%; height: 100px; margin: 0; float: none; position: fixed; top: 0; left: 0; z-index: 99999; background: #ea7171; }
+header article { width: 1000px; height: 100px; margin: 0 auto; float: none; position: relative; }
+
+header article figure { width: 80px;height: 90px;margin: 0;float: left;position: relative; }
+header article figure a { width: 78px;height: 95px;margin: 0 auto;float: none;position: relative;display: block; transition: all 0.3s ease-in; }
+header article figure a img { width: auto;height: 95px;display: block;margin: 0;flex: none;position: relative; transition: all 0.3s ease-in; }
+header article figure a:hover { transform: scale(1.1); transition: all 0.3s ease-in; }
+header article figure a:hover img { transition: all 0.3s ease-in; }
+
+header article nav { width: 410px;height: 50px;margin: 25px;float: right;position: relative; }
+header article nav a { width: auto;
+height: auto;
+margin: 0;
+float: left;
+position: relative;
+display: block;
+color: #000;
+text-decoration: none;
+font-size: 1.2em;
+line-height: 1em;
+font-weight: 500;
+padding: 15.5px 15px;
+text-transform: none;
+letter-spacing: 0.05em;
+transition: all 0.3s ease-in; }
+header article nav a:hover { color: #fff; border-bottom: solid 2px #000; transition: all 0.3s ease-in; }
+
+
+
+
+/* Main */
+main {  }
+main section#burger {  }
+main section#burger div.contenido-centrado {  }
+
+main section#burger div.contenido-centrado article {  }
+main section#burger div.contenido-centrado article h6 {  } 
+main section#burger div.contenido-centrado article h3 {  }
+
+main section#burger div.contenido-centrado figure {  }
+main section#burger div.contenido-centrado figure div.productos {  }
+main section#burger div.contenido-centrado figure div.productos img {  }
+main section#burger div.contenido-centrado figure div.productos div.info-producto {  }
+main section#burger div.contenido-centrado figure div.productos div.info-producto h5 {  }
+main section#burger div.contenido-centrado figure div.productos div.info-producto h4 {  }
+main section#burger div.contenido-centrado figure div.productos div.info-producto p.texto-producto {  }
+main section#burger div.contenido-centrado figure div.productos div.info-producto div.puntos {  }
+main section#burger div.contenido-centrado figure div.productos div.info-producto p.precio-producto {  }
+
+
+
+/* figure */
+figure {  } 
+figure div.productos {  }
+figure div.productos img {  }
+figure div.productos img div.info-producto {  }
+figure div.productos img div.info-producto h5 {  } 
+figure div.productos img div.info-producto h4 {  } 
+figure div.productos img div.info-producto p.texto-producto {  }
+figure div.productos img div.info-producto div.puntos {  }
+figure div.productos img div.info-producto p.precio-producto {  }
+
+
+/* section */
+main section#beverages {  }
+main section#beverages div.contenido-centrado {  }
+
+main section#beverages div.contenido-centrado article {  }
+main section#beverages div.contenido-centrado article h6 {  }
+main section#beverages div.contenido-centrado article h3 {  } 
+
+main section#beverages div.contenido-centrado figure {  }
+main section#beverages div.contenido-centrado figure div.productos {  }
+main section#beverages div.contenido-centrado figure div.productos img {  }
+main section#beverages div.contenido-centrado figure div.productos div.info-producto {  }
+main section#beverages div.contenido-centrado figure div.productos div.info-producto h5 {  }
+main section#beverages div.contenido-centrado figure div.productos div.info-producto h4 {  }
+main section#beverages div.contenido-centrado figure div.productos div.info-producto p.texto-producto {  }
+main section#beverages div.contenido-centrado figure div.productos div.info-producto div.puntos {  }
+main section#beverages div.contenido-centrado figure div.productos div.info-producto p.precio-producto {  }
+
+
+
+/* figure */
+figure {  } 
+figure div.productos {  }
+figure div.productos img {  }
+figure div.productos img div.info-producto {  }
+figure div.productos img div.info-producto h5 {  } 
+figure div.productos img div.info-producto h4 {  } 
+figure div.productos img div.info-producto p.texto-producto {  }
+figure div.productos img div.info-producto div.puntos {  }
+figure div.productos img div.info-producto p.precio-producto {  }
+
+
+
+/* section */
+section#popular {  }
+section#popular article {  }
+section#popular nav {  }
+section#popular nav a {  }
+section#popular nav a img {  }
+section#popular nav a:hover {  }
+section#popular nav a {  }
+section#popular nav a img {  }
+section#popular nav a:hover {  }
+section#popular nav a {  }
+section#popular nav a img {  }
+section#popular nav a:hover {  }
+
+
+
+/* section */
+main section#pizza {  }
+main section#pizza div.contenido-centrado {  }
+
+main section#pizza div.contenido-centrado article {  }
+main section#pizza div.contenido-centrado article h6 {  }
+main section#pizza div.contenido-centrado article h3 {  } 
+
+main section#pizza div.contenido-centrado figure {  }
+main section#pizza div.contenido-centrado figure div.productos {  }
+main section#pizza div.contenido-centrado figure div.productos img {  }
+main section#pizza div.contenido-centrado figure div.productos div.info-producto {  }
+main section#pizza div.contenido-centrado figure div.productos div.info-producto h5 {  }
+main section#pizza div.contenido-centrado figure div.productos div.info-producto h4 {  }
+main section#pizza div.contenido-centrado figure div.productos div.info-producto p.texto-producto {  }
+main section#pizza div.contenido-centrado figure div.productos div.info-producto div.puntos {  }
+main section#pizza div.contenido-centrado figure div.productos div.info-producto p.precio-producto {  }
+
+
+/* figure */
+figure {  } 
+figure div.productos {  }
+figure div.productos img {  }
+figure div.productos img div.info-producto {  }
+figure div.productos img div.info-producto h5 {  } 
+figure div.productos img div.info-producto h4 {  } 
+figure div.productos img div.info-producto p.texto-producto {  }
+figure div.productos img div.info-producto div.puntos {  }
+figure div.productos img div.info-producto p.precio-producto {  }
+
+
+
+
+
+/* footer */ 
+
+footer { width: 100%; height: 100px; margin: 0; float: none; position: relative; background-image: url('../img/banner_image.png'), url('../img/banner_image.png'); 
+background-repeat: no-repeat, no-repeat; 
+background-position: top center, top center;
+background-size: cover, cover;
+background-color: rgb(211, 243, 67);
+}
+footer article { width: 1000px;
+    height: 200px;
+    margin: 0 auto;
+    float: none;
+    position: relative; }
+footer article hr {     width: 400px;
+    height: 2px;
+    display: block;
+    margin: 98px 0px;
+    float: left;
+    border: none;
+    background: #555; }
+footer article figure { width: 100px; height: 150px; margin: 30px 40px 25px 40px; float: left; position: relative; }
+footer article figure a { width: 100px; height: 150px; margin: 0 auto; float: none; position: relative; display: block; transition: all 0.3s ease-in; }
+footer article figure a img { width: auto; height: 150px; display: block; margin: 0 auto; float: none; position: relative; transition: all 0.3s ease-in; }
+footer article figure a:hover { transform: scale(1.05); transition: all 0.3s ease-in;}
+footer article figure a:hover img { transition: all 0.3s ease-in; }
+
